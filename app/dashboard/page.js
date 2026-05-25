@@ -56,7 +56,7 @@ export default function Dashboard() {
     return () => clearInterval(interval);
 
   }, []);
-
+  console.log(providers);
   return (
 
     <div className="p-10">
